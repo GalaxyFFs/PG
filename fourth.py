@@ -65,7 +65,7 @@ def je_tah_mozny_strelec(figurka, cilova_pozice, obsazene_pozice):
     return False
 
 def je_tah_mozny_dama(figurka, cilova_pozice, obsazene_pozice):
-    if je_tah_mozny_vez(figurka, cilova_pozice, obsazene_pozice) == True or je_tah_mozny_strelec(figurka, cilova_pozice, obsazene_pozice):
+    if je_tah_mozny_vez(figurka, cilova_pozice, obsazene_pozice) == True or je_tah_mozny_strelec(figurka, cilova_pozice, obsazene_pozice) == True:
             return True
     return False
 
